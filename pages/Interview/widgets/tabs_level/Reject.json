@@ -1,0 +1,54 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 99,
+  "boxShadow": "none",
+  "buttonColor": "#b91c1c",
+  "buttonVariant": "PRIMARY",
+  "disabledWhenInvalid": false,
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "isDefaultClickDisabled": true,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "eyijh2417v",
+  "leftColumn": 40,
+  "minWidth": 120,
+  "mobileBottomRow": 102,
+  "mobileLeftColumn": 1,
+  "mobileRightColumn": 17,
+  "mobileTopRow": 98,
+  "needsErrorInfo": false,
+  "onClick": "inp_decision_value.setValue('reject');\nmakeDecision.run(() => {\n  showAlert('Candidate rejected.', 'success');\n  getInterviewStage.run();\n}, () => showAlert('Decision failed.', 'error'));",
+  "originalBottomRow": 99,
+  "originalTopRow": 95,
+  "parentColumnSpace": 12.47412109375,
+  "parentId": "iulxzqfq7t",
+  "parentRowSpace": 10,
+  "placement": "CENTER",
+  "recaptchaType": "V3",
+  "renderMode": "CANVAS",
+  "resetFormOnClick": false,
+  "responsiveBehavior": "hug",
+  "rightColumn": 54,
+  "text": "Reject",
+  "topRow": 95,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "x8x4f1vxk4",
+  "widgetName": "Reject"
+}

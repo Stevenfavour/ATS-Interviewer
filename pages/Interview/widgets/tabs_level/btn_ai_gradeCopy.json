@@ -1,0 +1,63 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 79,
+  "boxShadow": "none",
+  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "buttonVariant": "PRIMARY",
+  "disabledWhenInvalid": false,
+  "dynamicBindingPathList": [
+    {
+      "key": "buttonColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "isDisabled"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "onClick"
+    },
+    {
+      "key": "isDisabled"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "isDefaultClickDisabled": true,
+  "isDisabled": "{{!interviewUtils.transcript() && !inp_transcript.text}}",
+  "isLoading": false,
+  "isVisible": true,
+  "key": "eyijh2417v",
+  "leftColumn": 2,
+  "minWidth": 120,
+  "mobileBottomRow": 79,
+  "mobileLeftColumn": 1,
+  "mobileRightColumn": 17,
+  "mobileTopRow": 75,
+  "needsErrorInfo": false,
+  "onClick": "showAlert('AI grading coming soon — rubric integration in next phase.', 'info')",
+  "originalBottomRow": 79,
+  "originalTopRow": 75,
+  "parentColumnSpace": 12.47412109375,
+  "parentId": "9sy6qzr8p4",
+  "parentRowSpace": 10,
+  "placement": "CENTER",
+  "recaptchaType": "V3",
+  "renderMode": "CANVAS",
+  "resetFormOnClick": false,
+  "responsiveBehavior": "hug",
+  "rightColumn": 18,
+  "text": "Grade transcript with AI",
+  "topRow": 75,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "fhto34dods",
+  "widgetName": "btn_ai_gradeCopy"
+}

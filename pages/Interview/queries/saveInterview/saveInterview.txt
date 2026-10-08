@@ -1,0 +1,14 @@
+{
+  "body": {
+    "candidate_id": {{interviewUtils.candidateId()}},
+    "client_id": "internal",
+    "stage_code": "{{interviewUtils.level()}}",
+    "stage_action": "",
+    "in_view_flag": false,
+    "prepared_by": "{{appsmith.user.email}}",
+    "recording_url": "{{inp_recording_url.text}}",
+    "transcript_notes": "{{inp_transcript.text}}",
+    "interviewer_grade_pct": {{inp_grade.text || 0}},
+    "interviewer_notes": "{{inp_notes.text}}"
+  }
+}

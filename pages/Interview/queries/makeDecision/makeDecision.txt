@@ -1,0 +1,7 @@
+{
+  "candidate_id": {{interviewUtils.candidateId()}},
+  "stage_code": "{{interviewUtils.level()}}",
+  "stage_action": "{{inp_decision_value.text}}",
+  "prepared_by": "{{appsmith.user.email}}",
+  "acted_at": "{{new Date().toISOString()}}"
+}

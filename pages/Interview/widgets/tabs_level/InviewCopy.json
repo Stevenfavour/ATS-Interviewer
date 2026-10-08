@@ -1,0 +1,54 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 99,
+  "boxShadow": "none",
+  "buttonColor": "#fca5a5",
+  "buttonVariant": "PRIMARY",
+  "disabledWhenInvalid": false,
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "isDefaultClickDisabled": true,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "eyijh2417v",
+  "leftColumn": 23,
+  "minWidth": 120,
+  "mobileBottomRow": 102,
+  "mobileLeftColumn": 1,
+  "mobileRightColumn": 17,
+  "mobileTopRow": 98,
+  "needsErrorInfo": false,
+  "onClick": "inp_decision_value.setValue('progress');\nmakeDecision.run(() => {\n  showAlert('Candidate progressed.', 'success');\n  getInterviewStage.run();\n}, () => showAlert('Decision failed.', 'error'));",
+  "originalBottomRow": 99,
+  "originalTopRow": 95,
+  "parentColumnSpace": 12.47412109375,
+  "parentId": "9sy6qzr8p4",
+  "parentRowSpace": 10,
+  "placement": "CENTER",
+  "recaptchaType": "V3",
+  "renderMode": "CANVAS",
+  "resetFormOnClick": false,
+  "responsiveBehavior": "hug",
+  "rightColumn": 37,
+  "text": "Put in view",
+  "topRow": 95,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "pnjkb4xhec",
+  "widgetName": "InviewCopy"
+}

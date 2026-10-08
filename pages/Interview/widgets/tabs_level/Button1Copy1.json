@@ -1,0 +1,60 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 62,
+  "boxShadow": "none",
+  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "buttonVariant": "PRIMARY",
+  "disabledWhenInvalid": false,
+  "dynamicBindingPathList": [
+    {
+      "key": "buttonColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "text"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "isDefaultClickDisabled": true,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "eyijh2417v",
+  "leftColumn": 2,
+  "minWidth": 120,
+  "mobileBottomRow": 61,
+  "mobileLeftColumn": 1,
+  "mobileRightColumn": 17,
+  "mobileTopRow": 57,
+  "needsErrorInfo": false,
+  "onClick": "saveInterview.run(() => {\n  getInterviewStage.run();\n  showAlert('Interview saved.', 'success');\n}, () => {\n  showAlert('Save failed. Check the recording link and grade.', 'error');\n});",
+  "originalBottomRow": 62,
+  "originalTopRow": 58,
+  "parentColumnSpace": 12.47412109375,
+  "parentId": "s157f8cf9k",
+  "parentRowSpace": 10,
+  "placement": "CENTER",
+  "recaptchaType": "V3",
+  "renderMode": "CANVAS",
+  "resetFormOnClick": false,
+  "responsiveBehavior": "hug",
+  "rightColumn": 18,
+  "text": "Save {{interviewUtils.level()}} interview",
+  "topRow": 58,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "8dimkx8jkr",
+  "widgetName": "Button1Copy1"
+}

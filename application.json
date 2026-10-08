@@ -1,0 +1,29 @@
+{
+  "appIsExample": false,
+  "applicationVersion": 2,
+  "collapseInvisibleWidgets": true,
+  "color": "#D6D1F2",
+  "evaluationVersion": 2,
+  "pages": [
+    {
+      "id": "Default",
+      "isDefault": true
+    },
+    {
+      "id": "Login",
+      "isDefault": false
+    },
+    {
+      "id": "Candidate",
+      "isDefault": false
+    },
+    {
+      "id": "Interview",
+      "isDefault": false
+    },
+    {
+      "id": "Admin",
+      "isDefault": false
+    }
+  ]
+}
