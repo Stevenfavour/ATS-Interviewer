@@ -3,7 +3,7 @@
   "animateLoading": true,
   "autoFocus": false,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 43,
+  "bottomRow": 41,
   "boxShadow": "none",
   "defaultText": "{{interviewUtils.interviewerGrade()}}",
   "dynamicBindingPathList": [
@@ -60,7 +60,7 @@
   "rightColumn": 20,
   "shouldAllowAutofill": false,
   "showStepArrows": false,
-  "topRow": 36,
+  "topRow": 34,
   "type": "INPUT_WIDGET_V2",
   "version": 2,
   "widgetId": "w8mxn4gg5d",

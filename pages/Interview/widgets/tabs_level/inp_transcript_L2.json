@@ -1,9 +1,9 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 36,
+  "bottomRow": 34,
   "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
-  "defaultText": "{{interviewUtils.transcript()}}",
+  "defaultText": "{{getInterviewStageL2.data?.results[0]?.transcript_notes || ''}}",
   "dynamicBindingPathList": [
     {
       "key": "borderRadius"
@@ -55,9 +55,9 @@
   "responsiveBehavior": "fill",
   "rightColumn": 64,
   "shouldScrollContents": true,
-  "topRow": 13,
+  "topRow": 11,
   "type": "RICH_TEXT_EDITOR_WIDGET",
   "version": 1,
   "widgetId": "gtbr9rfn8u",
-  "widgetName": "inp_transcriptCopy"
+  "widgetName": "inp_transcript_L2"
 }

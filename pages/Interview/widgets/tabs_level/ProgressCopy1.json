@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 100,
+  "bottomRow": 98,
   "boxShadow": "none",
   "buttonColor": "#22c55e",
   "buttonVariant": "PRIMARY",
@@ -9,9 +9,6 @@
   "dynamicBindingPathList": [
     {
       "key": "borderRadius"
-    },
-    {
-      "key": "text"
     }
   ],
   "dynamicPropertyPathList": [
@@ -48,8 +45,8 @@
   "resetFormOnClick": false,
   "responsiveBehavior": "hug",
   "rightColumn": 18,
-  "text": "{{interviewUtils.level() === 'L3' ? 'Clear L3' : 'Progress to ' + interviewUtils.nextLevel()}}",
-  "topRow": 96,
+  "text": "Clear L3",
+  "topRow": 94,
   "type": "BUTTON_WIDGET",
   "version": 1,
   "widgetId": "enbb3r7a6j",

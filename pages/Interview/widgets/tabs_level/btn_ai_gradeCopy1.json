@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 80,
+  "bottomRow": 78,
   "boxShadow": "none",
   "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
   "buttonVariant": "PRIMARY",
@@ -55,7 +55,7 @@
   "responsiveBehavior": "hug",
   "rightColumn": 18,
   "text": "Grade transcript with AI",
-  "topRow": 76,
+  "topRow": 74,
   "type": "BUTTON_WIDGET",
   "version": 1,
   "widgetId": "3j981ogwfj",

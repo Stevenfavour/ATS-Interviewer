@@ -1,0 +1,5 @@
+{
+  "row_id": {{interviewUtils.currentInterview()?.id}},
+  "candidate_id": {{interviewUtils.candidateId()}},
+  "level": "{{interviewUtils.level()}}"
+}

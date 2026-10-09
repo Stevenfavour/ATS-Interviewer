@@ -3,9 +3,9 @@
   "animateLoading": true,
   "autoFocus": false,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 11,
+  "bottomRow": 9,
   "boxShadow": "none",
-  "defaultText": "{{interviewUtils.recordingUrl()}}",
+  "defaultText": "{{getInterviewStageL3.data?.results[0]?.recording_url || ''}}",
   "dynamicBindingPathList": [
     {
       "key": "accentColor"

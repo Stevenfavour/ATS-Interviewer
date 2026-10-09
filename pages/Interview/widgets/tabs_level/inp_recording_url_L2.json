@@ -3,9 +3,9 @@
   "animateLoading": true,
   "autoFocus": false,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 10,
+  "bottomRow": 8,
   "boxShadow": "none",
-  "defaultText": "{{interviewUtils.recordingUrl()}}",
+  "defaultText": "{{getInterviewStageL2.data?.results[0]?.recording_url || ''}}",
   "dynamicBindingPathList": [
     {
       "key": "accentColor"
@@ -65,5 +65,5 @@
   "type": "INPUT_WIDGET_V2",
   "version": 2,
   "widgetId": "7eq8jxtrjc",
-  "widgetName": "inp_recording_urlCopy"
+  "widgetName": "inp_recording_url_L2"
 }

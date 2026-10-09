@@ -12,3 +12,18 @@
     "interviewer_notes": "{{inp_notes.text}}"
   }
 }
+{
+ {
+  "body": {
+    "candidate_id": {{Number(appsmith.URL.queryParams.candidateId)}},
+    "client_id": "internal",
+    "stage_code": "{{tabs_level.selectedTab}}",
+    "stage_action": "",
+    "in_view_flag": false,
+    "prepared_by": "{{appsmith.user.email}}",
+    "recording_url": "{{tabs_level.selectedTab === 'L1' ? inp_recording_url.text : tabs_level.selectedTab === 'L2' ? inp_recording_url_L2.text : inp_recording_urlCopy1.text}}",
+    "transcript_notes": "{{tabs_level.selectedTab === 'L1' ? inp_transcript.text : tabs_level.selectedTab === 'L2' ? inp_transcript_L2.text : inp_transcriptCopy1.text}}",
+    "interviewer_grade_pct": {{Number(tabs_level.selectedTab === 'L1' ? inp_grade.text : tabs_level.selectedTab === 'L2' ? inp_grade_L2.text : inp_gradeCopy1.text) || null}},
+    "interviewer_notes": "{{tabs_level.selectedTab === 'L1' ? inp_notes.text : tabs_level.selectedTab === 'L2' ? inp_notesCopy.text : inp_notesCopy1.text}}"
+  }
+}

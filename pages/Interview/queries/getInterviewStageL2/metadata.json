@@ -1,6 +1,6 @@
 {
-  "gitSyncId": "6ac69b6a4cd8d8c033fe3b86_2e4ef1f9-ac24-4ff0-83b6-304ccfc0e367",
-  "id": "Interview_getInterviewStage",
+  "gitSyncId": "6ac69b6a4cd8d8c033fe3b86_97375fdf-b679-42dd-92f3-6be2edd99351",
+  "id": "Interview_getInterviewStageL2",
   "pluginId": "restapi-plugin",
   "pluginType": "API",
   "unpublishedAction": {
@@ -33,7 +33,7 @@
         },
         {
           "key": "filter__interview_key__equal",
-          "value": "{{appsmith.URL.queryParams.candidateId}}-~"
+          "value": "{{appsmith.URL.queryParams.candidateId}}-L2"
         }
       ],
       "timeoutInMillisecond": 10000
@@ -53,9 +53,9 @@
         "key": "queryParameters[2].value"
       }
     ],
-    "name": "getInterviewStage",
+    "name": "getInterviewStageL2",
     "pageId": "Interview",
-    "runBehaviour": "ON_PAGE_LOAD",
-    "userSetOnLoad": true
+    "runBehaviour": "AUTOMATIC",
+    "userSetOnLoad": false
   }
 }

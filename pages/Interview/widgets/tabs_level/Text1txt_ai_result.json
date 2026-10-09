@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 73,
+  "bottomRow": 71,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
@@ -46,7 +46,7 @@
   "text": "{{interviewUtils.aiStatus() === 'graded'\n  ? '**' + interviewUtils.aiGrade() + '%** · ' + (interviewUtils.currentInterview()?.ai_model || '')\n  : interviewUtils.aiStatus() === 'grading' ? 'Grading in progress…'\n  : interviewUtils.aiStatus() === 'failed' ? 'Grading failed. Try again.'\n  : 'Not graded yet. Save a transcript first.'}}",
   "textAlign": "LEFT",
   "textColor": "#231F20",
-  "topRow": 69,
+  "topRow": 67,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,

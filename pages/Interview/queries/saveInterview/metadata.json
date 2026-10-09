@@ -11,7 +11,7 @@
           "value": "application/json"
         }
       ],
-      "body": "{\n  \"body\": {\n    \"candidate_id\": {{interviewUtils.candidateId()}},\n    \"client_id\": \"internal\",\n    \"stage_code\": \"{{interviewUtils.level()}}\",\n    \"stage_action\": \"\",\n    \"in_view_flag\": false,\n    \"prepared_by\": \"{{appsmith.user.email}}\",\n    \"recording_url\": \"{{inp_recording_url.text}}\",\n    \"transcript_notes\": \"{{inp_transcript.text}}\",\n    \"interviewer_grade_pct\": {{inp_grade.text || 0}},\n    \"interviewer_notes\": \"{{inp_notes.text}}\"\n  }\n}",
+      "body": "{\n  \"body\": {\n    \"candidate_id\": {{interviewUtils.candidateId()}},\n    \"client_id\": \"internal\",\n    \"stage_code\": \"{{interviewUtils.level()}}\",\n    \"stage_action\": \"\",\n    \"in_view_flag\": false,\n    \"prepared_by\": \"{{appsmith.user.email}}\",\n    \"recording_url\": \"{{inp_recording_url.text}}\",\n    \"transcript_notes\": \"{{inp_transcript.text}}\",\n    \"interviewer_grade_pct\": {{inp_grade.text || 0}},\n    \"interviewer_notes\": \"{{inp_notes.text}}\"\n  }\n}\n{\n {\n  \"body\": {\n    \"candidate_id\": {{Number(appsmith.URL.queryParams.candidateId)}},\n    \"client_id\": \"internal\",\n    \"stage_code\": \"{{tabs_level.selectedTab}}\",\n    \"stage_action\": \"\",\n    \"in_view_flag\": false,\n    \"prepared_by\": \"{{appsmith.user.email}}\",\n    \"recording_url\": \"{{tabs_level.selectedTab === 'L1' ? inp_recording_url.text : tabs_level.selectedTab === 'L2' ? inp_recording_url_L2.text : inp_recording_urlCopy1.text}}\",\n    \"transcript_notes\": \"{{tabs_level.selectedTab === 'L1' ? inp_transcript.text : tabs_level.selectedTab === 'L2' ? inp_transcript_L2.text : inp_transcriptCopy1.text}}\",\n    \"interviewer_grade_pct\": {{Number(tabs_level.selectedTab === 'L1' ? inp_grade.text : tabs_level.selectedTab === 'L2' ? inp_grade_L2.text : inp_gradeCopy1.text) || null}},\n    \"interviewer_notes\": \"{{tabs_level.selectedTab === 'L1' ? inp_notes.text : tabs_level.selectedTab === 'L2' ? inp_notesCopy.text : inp_notesCopy1.text}}\"\n  }\n}",
       "bodyFormData": [],
       "encodeParamsToggle": true,
       "formData": {
@@ -21,7 +21,7 @@
       "httpMethod": "POST",
       "httpVersion": "HTTP11",
       "paginationType": "NONE",
-      "path": "",
+      "path": "/webhook-test/ats-write",
       "pluginSpecifiedTemplates": [
         {
           "value": true

@@ -3,7 +3,7 @@
   "backgroundColor": "#ec4899",
   "borderColor": "#b91c1c",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 92,
+  "bottomRow": 90,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
@@ -56,7 +56,7 @@
   "text": "{{interviewUtils.hasDecision() ? 'Decision recorded: ' + interviewUtils.decision() : 'No decision yet.'}}",
   "textAlign": "LEFT",
   "textColor": "#231F20",
-  "topRow": 88,
+  "topRow": 86,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,

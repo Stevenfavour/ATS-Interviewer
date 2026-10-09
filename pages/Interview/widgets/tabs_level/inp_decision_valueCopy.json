@@ -3,7 +3,7 @@
   "animateLoading": true,
   "autoFocus": false,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 112,
+  "bottomRow": 110,
   "boxShadow": "none",
   "defaultText": "",
   "dynamicBindingPathList": [
@@ -48,7 +48,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 41,
   "showStepArrows": false,
-  "topRow": 105,
+  "topRow": 103,
   "type": "INPUT_WIDGET_V2",
   "version": 2,
   "widgetId": "icaioiebal",

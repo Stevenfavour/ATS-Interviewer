@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 62,
+  "bottomRow": 60,
   "boxShadow": "none",
   "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
   "buttonVariant": "PRIMARY",
@@ -12,9 +12,6 @@
     },
     {
       "key": "borderRadius"
-    },
-    {
-      "key": "text"
     }
   ],
   "dynamicPropertyPathList": [
@@ -39,7 +36,7 @@
   "mobileRightColumn": 17,
   "mobileTopRow": 57,
   "needsErrorInfo": false,
-  "onClick": "saveInterview.run(() => {\n  getInterviewStage.run();\n  showAlert('Interview saved.', 'success');\n}, () => {\n  showAlert('Save failed. Check the recording link and grade.', 'error');\n});",
+  "onClick": "saveInterview.run(() => {\n  getInterviewStageL3.run();\n  showAlert('L3 interview saved.', 'success');\n}, () => showAlert('Save failed.', 'error'));",
   "originalBottomRow": 62,
   "originalTopRow": 58,
   "parentColumnSpace": 12.47412109375,
@@ -51,8 +48,8 @@
   "resetFormOnClick": false,
   "responsiveBehavior": "hug",
   "rightColumn": 18,
-  "text": "Save {{interviewUtils.level()}} interview",
-  "topRow": 58,
+  "text": "Save L3 Interview",
+  "topRow": 56,
   "type": "BUTTON_WIDGET",
   "version": 1,
   "widgetId": "8dimkx8jkr",

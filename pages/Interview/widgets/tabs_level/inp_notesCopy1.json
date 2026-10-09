@@ -3,9 +3,9 @@
   "animateLoading": true,
   "autoFocus": false,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 55,
+  "bottomRow": 53,
   "boxShadow": "none",
-  "defaultText": "{{interviewUtils.interviewerNotes()}}",
+  "defaultText": "{{getInterviewStageL3.data?.results[0]?.interviewer_notes || ''}}",
   "dynamicBindingPathList": [
     {
       "key": "accentColor"
@@ -52,7 +52,7 @@
   "rightColumn": 61,
   "shouldAllowAutofill": false,
   "showStepArrows": false,
-  "topRow": 45,
+  "topRow": 43,
   "type": "INPUT_WIDGET_V2",
   "version": 2,
   "widgetId": "hr7vlhvnig",
